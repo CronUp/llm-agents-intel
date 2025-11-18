@@ -4,14 +4,13 @@ for Detection, Threat Hunting, and AI Reconnaissance Monitoring
 
 **Purpose:** Enable defenders, SOC teams, and CTI analysts to:
 
-▪ Detect AI-driven reconnaissance, automation, and intelligent web activity.  
-▪ Monitor and flag unauthorized LLM/API usage from sensitive or high-value endpoints.  
-▪ Block malicious LLM scraping, crawling, or contextual data mining.  
-▪ Identify autonomous AI agents in network, proxy, DNS, web, and cloud logs.  
-▪ Build and enrich detection rules for WAF, IDS/IPS, SIEM, firewall, and proxy systems.  
-▪ Detect AI-assisted data exfiltration and potential command-and-control (C2) via LLM APIs.  
-▪ Enrich SIEM detections and support advanced threat hunting and CTI investigations.  
-
+✔ Detect AI-driven reconnaissance, automation, and intelligent web activity.  
+✔ Monitor and flag unauthorized LLM/API usage from sensitive or high-value endpoints.  
+✔ Block malicious LLM scraping, crawling, or contextual data mining.  
+✔ Identify autonomous AI agents in network, proxy, DNS, web, and cloud logs.  
+✔ Build and enrich detection rules for WAF, IDS/IPS, SIEM, firewall, and proxy systems.  
+✔ Detect AI-assisted data exfiltration and potential command-and-control (C2) via LLM APIs.  
+✔ Enrich SIEM detections and support advanced threat hunting and CTI investigations.  
 
 ---
 
