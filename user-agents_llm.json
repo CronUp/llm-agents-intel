@@ -1,0 +1,63 @@
+{
+  "user-agents_llm": [
+    { "category": "OpenAI / ChatGPT", "user_agent": "GPTBot", "description": "Crawls public web for model training (OpenAI)." },
+    { "category": "OpenAI / ChatGPT", "user_agent": "OAI-SearchBot", "description": "Powers real-time search in ChatGPT." },
+    { "category": "OpenAI / ChatGPT", "user_agent": "ChatGPT-Browser", "description": "Browser automation for plugin actions." },
+    { "category": "OpenAI / ChatGPT", "user_agent": "ChatGPT-User", "description": "User-triggered web navigation (v1)." },
+    { "category": "OpenAI / ChatGPT", "user_agent": "ChatGPT-User-v2", "description": "Updated user-triggered browsing (v2)." },
+
+    { "category": "Anthropic / Claude", "user_agent": "ClaudeBot", "description": "Autonomous web crawling for grounding." },
+    { "category": "Anthropic / Claude", "user_agent": "claude-web", "description": "Web interaction in Claude responses." },
+    { "category": "Anthropic / Claude", "user_agent": "Anthropic-Claude", "description": "Internal agent for web tasks." },
+    { "category": "Anthropic / Claude", "user_agent": "anthropic-ai", "description": "Legacy training crawler." },
+
+    { "category": "Google / Gemini", "user_agent": "Gemini-Ai", "description": "Gemini app web browsing." },
+    { "category": "Google / Gemini", "user_agent": "Gemini-Deep-Research", "description": "Deep Research assistant crawler." },
+    { "category": "Google / Gemini", "user_agent": "Google-CloudVertexBot", "description": "Vertex AI grounding agent." },
+    { "category": "Google / Gemini", "user_agent": "Google-Extended", "description": "Extended crawling for Gemini models." },
+    { "category": "Google / Gemini", "user_agent": "Google-NotebookLM", "description": "NotebookLM source fetching." },
+    { "category": "Google / Gemini", "user_agent": "Bard-Ai", "description": "Legacy Bard web agent." },
+
+    { "category": "xAI / Grok", "user_agent": "xAI-Bot", "description": "Grok real-time web access (via X)." },
+
+    { "category": "Perplexity", "user_agent": "PerplexityBot", "description": "Periodic indexing for answers." },
+    { "category": "Perplexity", "user_agent": "Perplexity-User", "description": "User-initiated real-time browsing." },
+    { "category": "Perplexity", "user_agent": "Perplexity-Stealth", "description": "Stealth mode (mimics Chrome)." },
+
+    { "category": "Cohere", "user_agent": "Cohere-Ai", "description": "Cohere model grounding." },
+    { "category": "Cohere", "user_agent": "Cohere-Command", "description": "Command R+ web agent." },
+    { "category": "Cohere", "user_agent": "cohere-ai", "description": "Legacy Cohere crawler." },
+
+    { "category": "Mistral", "user_agent": "MistralAI-User", "description": "Le Chat web fetching." },
+
+    { "category": "DeepSeek", "user_agent": "DeepseekBot", "description": "DeepSeek real-time search." },
+
+    { "category": "Hugging Face", "user_agent": "HuggingFace-Bot", "description": "Model training & demo scraping." },
+
+    { "category": "Groq", "user_agent": "Groq-Bot", "description": "GroqChat web context." },
+
+    { "category": "Replicate", "user_agent": "Replicate-Bot", "description": "Replicate demo & training data." },
+
+    { "category": "RunPod", "user_agent": "RunPod-Bot", "description": "RunPod-hosted model crawler." },
+
+    { "category": "Together AI", "user_agent": "Together-Bot", "description": "Together AI playground scraping." },
+
+    { "category": "Other AI/LLMs", "user_agent": "AI2Bot", "description": "Allen Institute research crawler." },
+    { "category": "Other AI/LLMs", "user_agent": "Amazonbot", "description": "Amazon Titan model training." },
+    { "category": "Other AI/LLMs", "user_agent": "Andibot", "description": "Andi search AI crawler." },
+    { "category": "Other AI/LLMs", "user_agent": "Brightbot", "description": "Bright Data AI scraping." },
+    { "category": "Other AI/LLMs", "user_agent": "Character-AI", "description": "Character.AI context gathering." },
+    { "category": "Other AI/LLMs", "user_agent": "Cotoyogi", "description": "Japanese AI research bot." },
+    { "category": "Other AI/LLMs", "user_agent": "Crawlspace", "description": "AI dev tool crawler." },
+    { "category": "Other AI/LLMs", "user_agent": "Devin", "description": "Cognition Labs AI agent." },
+    { "category": "Other AI/LLMs", "user_agent": "FirecrawlAgent", "description": "Firecrawl.dev web scraper." },
+    { "category": "Other AI/LLMs", "user_agent": "IbouBot", "description": "Ibou AI search engine." },
+    { "category": "Other AI/LLMs", "user_agent": "ImagesiftBot", "description": "Image-focused AI training." },
+    { "category": "Other AI/LLMs", "user_agent": "Kangaroo Bot", "description": "Australian AI research crawler." },
+    { "category": "Other AI/LLMs", "user_agent": "PanguBot", "description": "Huawei Pangu model crawler." },
+    { "category": "Other AI/LLMs", "user_agent": "TerraCotta", "description": "Ceramic AI data collector." },
+    { "category": "Other AI/LLMs", "user_agent": "TimpiBot", "description": "Timpi.io AI agent." },
+    { "category": "Other AI/LLMs", "user_agent": "Webzio-Extended", "description": "Webzio AI extended crawler." },
+    { "category": "Other AI/LLMs", "user_agent": "bigsur.ai", "description": "BigSur AI research bot." }
+  ]
+}

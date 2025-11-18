@@ -1,0 +1,49 @@
+{
+  "ip-ranges_llm": [
+    {
+      "vendor": "OpenAI",
+      "agent": "GPTBot",
+      "url": "https://openai.com/gptbot.json"
+    },
+    {
+      "vendor": "OpenAI",
+      "agent": "ChatGPT-User",
+      "url": "https://openai.com/chatgpt-user.json"
+    },
+    {
+      "vendor": "OpenAI",
+      "agent": "OAI-SearchBot",
+      "url": "https://openai.com/searchbot.json"
+    },
+    {
+      "vendor": "OpenAI",
+      "agent": "ChatGPT-Actions",
+      "url": "https://openai.com/chatgpt-actions.json"
+    },
+    {
+      "vendor": "Anthropic",
+      "agent": "ClaudeBot",
+      "url": "https://docs.claude.com/es/api/ip-addresses"
+    },
+    {
+      "vendor": "Perplexity",
+      "agent": "PerplexityBot",
+      "url": "https://www.perplexity.com/perplexitybot.json"
+    },
+    {
+      "vendor": "Perplexity",
+      "agent": "Perplexity-User",
+      "url": "https://www.perplexity.ai/perplexity-user.json"
+    },
+    {
+      "vendor": "Mistral",
+      "agent": "MistralAI-User",
+      "url": "https://mistral.ai/mistralai-user-ips.json"
+    },
+    {
+      "vendor": "Amazon",
+      "agent": "Amazonbot",
+      "url": "https://developer.amazon.com/amazonbot/live-ip-addresses/"
+    }
+  ]
+}
