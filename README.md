@@ -1,13 +1,20 @@
 # LLM Crawlers IOCs for Threat Hunting and CTI
 
 **LLM User-Agents + IP Ranges**  
-**Purpose:** Enable proactive detection, blocking, and hunting of LLM-driven reconnaissance (AI-orchestrated cyber operations).
+**Purpose:** Enable defenders, SOC teams, and CTI analysts to:
+
+- Detect **AI-driven reconnaissance**
+- Identify autonomous LLM agents in logs  
+- Block unauthorized scraping  
+- Build WAF/IDS/Firewall rules  
+- Enrich SIEM detections  
+- Support hunting investigations  
 
 ---
 
 ## Overview
 
-This repository provides a **high-fidelity, machine-readable threat intelligence feed** focused on **Large Language Model (LLM) crawlers and autonomous agents** used for web scraping, data ingestion, and reconnaissance.  
+This repository provides a **high-fidelity, machine-readable threat intelligence feed** focused on **Large Language Model (LLM) crawlers and autonomous agents** used for web crawlers, data ingestion, reconnaissance agents, AI-driven scrapers, etc.
 
 All indicators are **verified against official vendor documentation** (OpenAI, Anthropic, Google, Perplexity, Mistral, etc.) and enriched with observed behavioral patterns from public logs analysis.
 
