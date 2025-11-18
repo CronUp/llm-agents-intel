@@ -2,13 +2,15 @@
 
 **Purpose:** Enable defenders, SOC teams, and CTI analysts to:
 
-▪ Detect AI-driven reconnaissance and intelligent automation
-▪ Block unauthorized LLM scraping, crawling, or contextual data mining  
-▪ Identify autonomous agents in network, proxy, DNS, web and cloud logs  
-▪ Build WAF, IDS and Firewall rules (among others)
-▪ Detect and monitor outbound LLM/API usage from sensitive hosts  
-▪ Flag AI-assisted data exfiltration and potential C2 via AI APIs  
-▪ Enrich SIEM detections and support threat hunting investigations  
+▪ Detect AI-driven reconnaissance and intelligent automation.
+
+▪ Block unauthorized LLM scraping, crawling, or contextual data mining.  
+▪ Identify autonomous agents in network, proxy, DNS, web and cloud logs.  
+▪ Build WAF, IDS and Firewall rules (among others).
+
+▪ Detect and monitor outbound LLM/API usage from sensitive hosts.  
+▪ Flag AI-assisted data exfiltration and potential C2 via AI APIs.  
+▪ Enrich SIEM detections and support threat hunting investigations.  
 
 ---
 
