@@ -98,20 +98,21 @@ All indicators are **verified against official vendor documentation** (OpenAI, A
 
 | Provider | Main Model | API URL | Documentation |
 |----------|------------|---------|---------------|
-| OpenAI | GPT-4o, GPT-4o-mini, o1, o3 | https://api.openai.com/v1/ | [`https://api.openai.com/v1/`](https://api.openai.com/v1/) |
-| Anthropic | Claude 3.5 Sonnet, Claude 3 Opus | https://api.anthropic.com/v1/ | [`https://api.anthropic.com/v1/`](https://api.anthropic.com/v1/) |
-| Google | Gemini 1.5 Pro, Gemini 1.5 Flash | https://generativelanguage.googleapis.com/v1beta/ | [`https://generativelanguage.googleapis.com/v1beta/`](https://generativelanguage.googleapis.com/v1beta/) |
-| Google (Vertex AI) | Gemini via Vertex | https://REGION-aiplatform.googleapis.com/v1/ | [`https://REGION-aiplatform.googleapis.com/v1/`](https://REGION-aiplatform.googleapis.com/v1/) |
-| Mistral AI | Mistral Large, Mixtral, etc. | https://api.mistral.ai/v1/ | [`https://api.mistral.ai/v1/`](https://api.mistral.ai/v1/) |
-| Cohere | Command R+, Aya | https://api.cohere.com/v1/ | [`https://api.cohere.com/v1/`](https://api.cohere.com/v1/) |
-| Groq | Llama 3.1 70B/405B, Mixtral, Gemma | https://api.groq.com/openai/v1/ | [`https://api.groq.com/openai/v1/`](https://api.groq.com/openai/v1/) |
-| Perplexity | pplx-70b-online, Sonar | https://api.perplexity.ai/ | [`https://api.perplexity.ai/`](https://api.perplexity.ai/) |
-| Together AI | Llama-3.1-405B, Qwen2-72B, etc. | https://api.together.xyz/v1/ | [`https://api.together.xyz/v1/`](https://api.together.xyz/v1/) |
-| Fireworks AI | Llama 3.1, Mixtral, etc. | https://api.fireworks.ai/inference/v1/ | [`https://api.fireworks.ai/inference/v1/`](https://api.fireworks.ai/inference/v1/) |
-| DeepSeek | DeepSeek-V2, DeepSeek-Coder | https://api.deepseek.com/v1/ | [`https://api.deepseek.com/v1/`](https://api.deepseek.com/v1/) |
-| OctoAI | Varios (Llama, Mixtral, etc.) | https://text.octoai.app/v1/ | [`https://text.octoai.app/v1/`](https://text.octoai.app/v1/) |
-| Lepton AI | Llama 3.1, etc. | https://api.lepton.ai/v1/ | [`https://api.lepton.ai/v1/`](https://api.lepton.ai/v1/) |
-| xAI | Grok-2, Grok-beta | https://api.x.ai/v1/ | [`https://api.x.ai/v1/`](https://api.x.ai/v1/) |
+| OpenAI | GPT-4o, GPT-4o-mini, o1, o3 | https://api.openai.com/v1/ | [`https://platform.openai.com/docs/api-reference`](https://platform.openai.com/docs/api-reference) |
+| Anthropic | Claude 3.5 Sonnet, Claude 3 Opus | https://api.anthropic.com/v1/ | [`https://docs.anthropic.com/en/api/messages`](https://docs.anthropic.com/en/api/messages) |
+| Google | Gemini 1.5 Pro, Gemini 1.5 Flash | https://generativelanguage.googleapis.com/v1beta/ | [`https://ai.google.dev/api/rest`](https://ai.google.dev/api/rest) |
+| Google (Vertex AI) | Gemini via Vertex | https://REGION-aiplatform.googleapis.com/v1/ | [`https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/api-quickstart`](https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/api-quickstart) |
+| Mistral AI | Mistral Large, Mixtral, etc. | https://api.mistral.ai/v1/ | [`https://docs.mistral.ai/api/`](https://docs.mistral.ai/api/) |
+| Cohere | Command R+, Aya | https://api.cohere.com/v1/ | [`https://docs.cohere.com/reference/chat`](https://docs.cohere.com/reference/chat) |
+| Groq | Llama 3.1 70B/405B, Mixtral, Gemma | https://api.groq.com/openai/v1/ | [`https://console.groq.com/docs/quickstart`](https://console.groq.com/docs/quickstart) |
+| Perplexity | pplx-70b-online, Sonar | https://api.perplexity.ai/ | [`https://docs.perplexity.ai/docs/getting-started`](https://docs.perplexity.ai/docs/getting-started) |
+| Together AI | Llama-3.1-405B, Qwen2-72B, etc. | https://api.together.xyz/v1/ | [`https://docs.together.ai/reference/chat-completions-1`](https://docs.together.ai/reference/chat-completions-1) |
+| Fireworks AI | Llama 3.1, Mixtral, etc. | https://api.fireworks.ai/inference/v1/ | [`https://docs.fireworks.ai/guides/quickstart`](https://docs.fireworks.ai/guides/quickstart) |
+| DeepSeek | DeepSeek-V2, DeepSeek-Coder | https://api.deepseek.com/v1/ | [`https://platform.deepseek.com/api-docs/`](https://platform.deepseek.com/api-docs/) |
+| OctoAI | Varios (Llama, Mixtral, etc.) | https://text.octoai.app/v1/ | [`https://octoai.cloud/documentation`](https://octoai.cloud/documentation) |
+| Lepton AI | Llama 3.1, etc. | https://api.lepton.ai/v1/ | [`https://www.lepton.ai/docs`](https://www.lepton.ai/docs) |
+| xAI | Grok-2, Grok-beta | https://api.x.ai/v1/ | [`https://x.ai/api`](https://x.ai/api) |
+
 
 ---
 
