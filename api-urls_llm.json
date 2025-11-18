@@ -1,0 +1,89 @@
+{
+  "api-urls_llm": [
+    {
+      "provider": "OpenAI",
+      "main_models": ["GPT-4o", "GPT-4o-mini", "o1", "o3"],
+      "api_url": "https://api.openai.com/v1/",
+      "documentation": "https://api.openai.com/v1/"
+    },
+    {
+      "provider": "Anthropic",
+      "main_models": ["Claude 3.5 Sonnet", "Claude 3 Opus"],
+      "api_url": "https://api.anthropic.com/v1/",
+      "documentation": "https://api.anthropic.com/v1/"
+    },
+    {
+      "provider": "Google",
+      "main_models": ["Gemini 1.5 Pro", "Gemini 1.5 Flash"],
+      "api_url": "https://generativelanguage.googleapis.com/v1beta/",
+      "documentation": "https://generativelanguage.googleapis.com/v1beta/"
+    },
+    {
+      "provider": "Google (Vertex AI)",
+      "main_models": ["Gemini via Vertex"],
+      "api_url": "https://REGION-aiplatform.googleapis.com/v1/",
+      "documentation": "https://REGION-aiplatform.googleapis.com/v1/"
+    },
+    {
+      "provider": "Mistral AI",
+      "main_models": ["Mistral Large", "Mixtral"],
+      "api_url": "https://api.mistral.ai/v1/",
+      "documentation": "https://api.mistral.ai/v1/"
+    },
+    {
+      "provider": "Cohere",
+      "main_models": ["Command R+", "Aya"],
+      "api_url": "https://api.cohere.com/v1/",
+      "documentation": "https://api.cohere.com/v1/"
+    }
+    ,
+    {
+      "provider": "Groq",
+      "main_models": ["Llama 3.1 70B", "Llama 3.1 405B", "Mixtral", "Gemma"],
+      "api_url": "https://api.groq.com/openai/v1/",
+      "documentation": "https://api.groq.com/openai/v1/"
+    },
+    {
+      "provider": "Perplexity",
+      "main_models": ["pplx-70b-online", "Sonar"],
+      "api_url": "https://api.perplexity.ai/",
+      "documentation": "https://api.perplexity.ai/"
+    },
+    {
+      "provider": "Together AI",
+      "main_models": ["Llama-3.1-405B", "Qwen2-72B"],
+      "api_url": "https://api.together.xyz/v1/",
+      "documentation": "https://api.together.xyz/v1/"
+    },
+    {
+      "provider": "Fireworks AI",
+      "main_models": ["Llama 3.1", "Mixtral"],
+      "api_url": "https://api.fireworks.ai/inference/v1/",
+      "documentation": "https://api.fireworks.ai/inference/v1/"
+    },
+    {
+      "provider": "DeepSeek",
+      "main_models": ["DeepSeek-V2", "DeepSeek-Coder"],
+      "api_url": "https://api.deepseek.com/v1/",
+      "documentation": "https://api.deepseek.com/v1/"
+    },
+    {
+      "provider": "OctoAI",
+      "main_models": ["Llama", "Mixtral"],
+      "api_url": "https://text.octoai.app/v1/",
+      "documentation": "https://text.octoai.app/v1/"
+    },
+    {
+      "provider": "Lepton AI",
+      "main_models": ["Llama 3.1"],
+      "api_url": "https://api.lepton.ai/v1/",
+      "documentation": "https://api.lepton.ai/v1/"
+    },
+    {
+      "provider": "xAI",
+      "main_models": ["Grok-2", "Grok-beta"],
+      "api_url": "https://api.x.ai/v1/",
+      "documentation": "https://api.x.ai/v1/"
+    }
+  ]
+}
