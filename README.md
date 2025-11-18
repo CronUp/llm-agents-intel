@@ -1,4 +1,4 @@
-# LLM Crawlers IOCs for Threat Hunting and CTI
+# LLM Agents IOCs for Threat Hunting and CTI
 
 **LLM User-Agents + IP Ranges**  
 **Purpose:** Enable defenders, SOC teams, and CTI analysts to:
