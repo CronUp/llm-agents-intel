@@ -72,52 +72,52 @@ User-Agent strings associated with AI crawlers, foundation model clients, and au
 
 | Category            | User-Agent String        | Description                                      |
 |---------------------|--------------------------|--------------------------------------------------|
-| OpenAI / ChatGPT    | GPTBot                   | Crawls public web for model training (OpenAI).   |
-| OpenAI / ChatGPT    | OAI-SearchBot            | Powers real-time search in ChatGPT.              |
-| OpenAI / ChatGPT    | ChatGPT-Browser          | Browser automation for plugin actions.           |
-| OpenAI / ChatGPT    | ChatGPT-User             | User-triggered web navigation (v1).              |
-| OpenAI / ChatGPT    | ChatGPT-User-v2          | Updated user-triggered browsing (v2).            |
-| Anthropic / Claude  | ClaudeBot                | Autonomous web crawling for grounding.           |
-| Anthropic / Claude  | claude-web               | Web interaction in Claude responses.             |
-| Anthropic / Claude  | Anthropic-Claude         | Internal agent for web tasks.                    |
-| Anthropic / Claude  | anthropic-ai             | Legacy training crawler.                         |
-| Google / Gemini     | Gemini-Ai                | Gemini app web browsing.                         |
-| Google / Gemini     | Gemini-Deep-Research     | Deep Research assistant crawler.                 |
-| Google / Gemini     | Google-CloudVertexBot    | Vertex AI grounding agent.                       |
-| Google / Gemini     | Google-Extended          | Extended crawling for Gemini models.             |
-| Google / Gemini     | Google-NotebookLM        | NotebookLM source fetching.                      |
-| Google / Gemini     | Bard-Ai                  | Legacy Bard web agent.                           |
-| xAI / Grok          | xAI-Bot                  | Grok real-time web access (via X).               |
-| Perplexity          | PerplexityBot            | Periodic indexing for answers.                   |
-| Perplexity          | Perplexity-User          | User-initiated real-time browsing.               |
-| Perplexity          | Perplexity-Stealth       | Stealth mode (mimics Chrome).                    |
-| Cohere              | Cohere-Ai                | Cohere model grounding.                          |
-| Cohere              | Cohere-Command           | Command R+ web agent.                            |
-| Cohere              | cohere-ai                | Legacy Cohere crawler.                           |
-| Mistral             | MistralAI-User           | Le Chat web fetching.                            |
-| DeepSeek            | DeepseekBot              | DeepSeek real-time search.                       |
-| Hugging Face        | HuggingFace-Bot          | Model training & demo scraping.                  |
-| Groq                | Groq-Bot                 | GroqChat web context.                            |
-| Replicate           | Replicate-Bot            | Replicate demo & training data.                  |
-| RunPod              | RunPod-Bot               | RunPod-hosted model crawler.                     |
-| Together AI         | Together-Bot             | Together AI playground scraping.                 |
-| Other AI/LLMs       | AI2Bot                   | Allen Institute research crawler.                |
-| Other AI/LLMs       | Amazonbot                | Amazon Titan model training.                     |
-| Other AI/LLMs       | Andibot                  | Andi search AI crawler.                          |
-| Other AI/LLMs       | Brightbot                | Bright Data AI scraping.                         |
-| Other AI/LLMs       | Character-AI             | Character.AI context gathering.                  |
-| Other AI/LLMs       | Cotoyogi                 | Japanese AI research bot.                        |
-| Other AI/LLMs       | Crawlspace               | AI dev tool crawler.                             |
-| Other AI/LLMs       | Devin                    | Cognition Labs AI agent.                         |
-| Other AI/LLMs       | FirecrawlAgent           | Firecrawl.dev web scraper.                       |
-| Other AI/LLMs       | IbouBot                  | Ibou AI search engine.                           |
-| Other AI/LLMs       | ImagesiftBot             | Image-focused AI training.                       |
-| Other AI/LLMs       | Kangaroo Bot             | Australian AI research crawler.                  |
-| Other AI/LLMs       | PanguBot                 | Huawei Pangu model crawler.                      |
-| Other AI/LLMs       | TerraCotta               | Ceramic AI data collector.                       |
-| Other AI/LLMs       | TimpiBot                 | Timpi.io AI agent.                               |
-| Other AI/LLMs       | Webzio-Extended          | Webzio AI extended crawler.                      |
-| Other AI/LLMs       | bigsur.ai                | BigSur AI research bot.                          |
+| OpenAI / ChatGPT    | `GPTBot`                 | Crawls public web for model training (OpenAI).   |
+| OpenAI / ChatGPT    | `OAI-SearchBot`          | Powers real-time search in ChatGPT.              |
+| OpenAI / ChatGPT    | `ChatGPT-Browser`        | Browser automation for plugin actions.           |
+| OpenAI / ChatGPT    | `ChatGPT-User`           | User-triggered web navigation (v1).              |
+| OpenAI / ChatGPT    | `ChatGPT-User-v2`        | Updated user-triggered browsing (v2).            |
+| Anthropic / Claude  | `ClaudeBot`              | Autonomous web crawling for grounding.           |
+| Anthropic / Claude  | `claude-web`             | Web interaction in Claude responses.             |
+| Anthropic / Claude  | `Anthropic-Claude`       | Internal agent for web tasks.                    |
+| Anthropic / Claude  | `anthropic-ai`           | Legacy training crawler.                         |
+| Google / Gemini     | `Gemini-Ai`              | Gemini app web browsing.                         |
+| Google / Gemini     | `Gemini-Deep-Research`   | Deep Research assistant crawler.                 |
+| Google / Gemini     | `Google-CloudVertexBot`  | Vertex AI grounding agent.                       |
+| Google / Gemini     | `Google-Extended`        | Extended crawling for Gemini models.             |
+| Google / Gemini     | `Google-NotebookLM`      | NotebookLM source fetching.                      |
+| Google / Gemini     | `Bard-Ai`                | Legacy Bard web agent.                           |
+| xAI / Grok          | `xAI-Bot`                | Grok real-time web access (via X).               |
+| Perplexity          | `PerplexityBot`          | Periodic indexing for answers.                   |
+| Perplexity          | `Perplexity-User`        | User-initiated real-time browsing.               |
+| Perplexity          | `Perplexity-Stealth`     | Stealth mode (mimics Chrome).                    |
+| Cohere              | `Cohere-Ai`              | Cohere model grounding.                          |
+| Cohere              | `Cohere-Command`         | Command R+ web agent.                            |
+| Cohere              | `cohere-ai`              | Legacy Cohere crawler.                           |
+| Mistral             | `MistralAI-User`         | Le Chat web fetching.                            |
+| DeepSeek            | `DeepseekBot`            | DeepSeek real-time search.                       |
+| Hugging Face        | `HuggingFace-Bot`        | Model training & demo scraping.                  |
+| Groq                | `Groq-Bot`               | GroqChat web context.                            |
+| Replicate           | `Replicate-Bot`          | Replicate demo & training data.                  |
+| RunPod              | `RunPod-Bot`             | RunPod-hosted model crawler.                     |
+| Together AI         | `Together-Bot`           | Together AI playground scraping.                 |
+| Other AI/LLMs       | `AI2Bot`                 | Allen Institute research crawler.                |
+| Other AI/LLMs       | `Amazonbot`              | Amazon Titan model training.                     |
+| Other AI/LLMs       | `Andibot`                | Andi search AI crawler.                          |
+| Other AI/LLMs       | `Brightbot`              | Bright Data AI scraping.                         |
+| Other AI/LLMs       | `Character-AI`           | Character.AI context gathering.                  |
+| Other AI/LLMs       | `Cotoyogi`               | Japanese AI research bot.                        |
+| Other AI/LLMs       | `Crawlspace`             | AI dev tool crawler.                             |
+| Other AI/LLMs       | `Devin`                  | Cognition Labs AI agent.                         |
+| Other AI/LLMs       | `FirecrawlAgent`         | Firecrawl.dev web scraper.                       |
+| Other AI/LLMs       | `IbouBot`                | Ibou AI search engine.                           |
+| Other AI/LLMs       | `ImagesiftBot`           | Image-focused AI training.                       |
+| Other AI/LLMs       | `Kangaroo Bot`           | Australian AI research crawler.                  |
+| Other AI/LLMs       | `PanguBot`               | Huawei Pangu model crawler.                      |
+| Other AI/LLMs       | `TerraCotta`             | Ceramic AI data collector.                       |
+| Other AI/LLMs       | `TimpiBot`               | Timpi.io AI agent.                               |
+| Other AI/LLMs       | `Webzio-Extended`        | Webzio AI extended crawler.                      |
+| Other AI/LLMs       | `bigsur.ai`              | BigSur AI research bot.                          |
 
 ---
 
