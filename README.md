@@ -1,11 +1,11 @@
-# LLM Agents IOCs for Threat Hunting and CTI
+# LLM agents IOCs for Threat Hunting and CTI
 
 **LLM User-Agents + IP Ranges**  
 **Purpose:** Enable defenders, SOC teams, and CTI analysts to:
 
 - Detect **AI-driven reconnaissance**
 - Identify autonomous LLM agents in logs  
-- Block unauthorized scraping  
+- Block unauthorized crawlers and scrapers  
 - Build WAF/IDS/Firewall rules  
 - Enrich SIEM detections  
 - Support hunting investigations  
