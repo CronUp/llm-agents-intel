@@ -1,4 +1,4 @@
-# LLM agents IOCs for Threat Hunting and CTI
+# LLM agents IOCs for Cyber Threat Intelligence
 User-Agents • API Endpoints • IP Ranges  
 for Detection, Threat Hunting, and AI monitoring.
 
