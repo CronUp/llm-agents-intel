@@ -161,14 +161,6 @@ Useful for network-level monitoring, flow analysis, NDR correlation, and tagging
 | Perplexity | Perplexity-User | [`https://www.perplexity.ai/perplexity-user.json`](https://www.perplexity.ai/perplexity-user.json) |
 | Mistral | MistralAI-User | [`https://mistral.ai/mistralai-user-ips.json`](https://mistral.ai/mistralai-user-ips.json) |
 | Amazon | Amazonbot | [`https://developer.amazon.com/amazonbot/live-ip-addresses/`](https://developer.amazon.com/amazonbot/live-ip-addresses/) |
-| Google | Gemini-Extended |  No public IPs |
-| Others | xAI-Bot | No public IPs |
-| Others | DeepseekBot | No public IPs |
-| Others | Groq-Bot | No public IPs |
-| Others | HuggingFace-Bot | No public IPs |
-| Others | Replicate-Bot | No public IPs |
-| Others | RunPod-Bot | No public IPs |
-| Others | Together-Bot | No public IPs |
 
 ---
 
