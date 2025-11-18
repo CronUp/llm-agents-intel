@@ -25,6 +25,7 @@ All indicators are **verified against official vendor documentation** (OpenAI, A
 | File | Format | Use Case |
 |------|--------|---------|
 | [`user-agents_llm.json`](./user-agents_llm.json) | JSON | SIEM correlation, WAF rules, EDR telemetry |
+| [`api-urls_llm.json`](./api-urls_llm.json) | JSON | Threat Hunting, block AI agents |
 | [`ip-ranges_llm.json`](./ip-ranges_llm.json) | JSON | Firewall ACLs, IDS/IPS, Geo-IP blocking |
 | [`regex_llm.txt`](./regex_llm.txt) | Plaintext | Regex-based detection (Nginx, Suricata, Python) |
 
@@ -32,10 +33,19 @@ All indicators are **verified against official vendor documentation** (OpenAI, A
 
 ## Threat Intelligence Value
 
-| Indicator Type | Coverage                     | TTP Mapping (MITRE ATT&CK)            |
-|----------------|------------------------------|---------------------------------------|
-| IOC            | User-Agent strings        | T1595.002 – Active Scanning           |
-| IOC            | CIDR blocks / IPs         | T1046 – Network Service Discovery     |
+| Indicator Type | Coverage                           | TTP Mapping (MITRE ATT&CK / ATLAS)                          |
+|----------------|------------------------------------|------------------------------------------------------------|
+| IOC            | User-Agent strings                 | T1595.002 – Active Scanning (Scanning IP Blocks)           |
+| IOC            | CIDR blocks / IPs                  | T1046 – Network Service Discovery                          |
+| IOC            | API Endpoints (LLM/AI Vendors)     | T1567.002 – Exfiltration to Cloud Services                |
+| Behavior       | High-frequency API Calls to LLMs   | T1008 – Fallback Channels / Covert Communication           |
+| Behavior       | Automated Browser Interaction      | T1059.007 – Command Execution via API                      |
+| Behavior       | AI-Aided Recon Automation          | T1595 – Active Scanning / T1597 – Reconnaissance via Search|
+| TTP            | LLM-assisted payload crafting      | T1566.002 – Spearphishing (Content Generation)             |
+| TTP            | Automated Data Enrichment (LLM)    | T1589 – Gather Victim Identity / T1591 – Gather Org Info   |
+| TTP            | LLM-enabled Code Writing (Malware) | T1608.001 – Develop Capabilities: Malware                  |
+| Threat Intel   | OpenAI / Anthropic API abuse       | T1102 – Web Service (C2 or Data Exchange)                  |
+| Threat Intel   | ChatGPT / AI used for reconnaissance | T1595 / T1597 (Reconnaissance with Online Services)        |
 
 > Key Insight: LLM crawlers often operate in unsupervised reconnaissance mode, leveraging default agent configurations (e.g., ClaudeBot auto-following internal links). This enables autonomous attack surface mapping, a core phase in AI-driven campaigns.
 
