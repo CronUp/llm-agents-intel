@@ -1,6 +1,6 @@
 # LLM agents IOCs for Threat Hunting and CTI
 User-Agents • API Endpoints • IP Ranges  
-for Detection, Threat Hunting, and AI Reconnaissance Monitoring
+for Detection, Threat Hunting, and AI monitoring.
 
 **Purpose:** Enable defenders, SOC teams, and CTI analysts to:
 
