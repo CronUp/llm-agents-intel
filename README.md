@@ -1,15 +1,16 @@
 # LLM agents IOCs for Threat Hunting and CTI
-Indicators for monitoring AI automation and reconnaissance.
+User-Agents • API Endpoints • IP Ranges  
+for Detection, Threat Hunting, and AI Reconnaissance Monitoring
 
 **Purpose:** Enable defenders, SOC teams, and CTI analysts to:
 
-▪ Detect AI-driven reconnaissance and intelligent automation.
-▪ Block unauthorized LLM scraping, crawling, or contextual data mining.  
-▪ Identify autonomous agents in network, proxy, DNS, web and cloud logs.  
-▪ Build WAF, IDS and Firewall rules (among others).
-▪ Detect and monitor outbound LLM/API usage from sensitive hosts.  
-▪ Flag AI-assisted data exfiltration and potential C2 via AI APIs.  
-▪ Enrich SIEM detections and support threat hunting investigations.  
+✔ Detect AI-driven reconnaissance, automation, and intelligent web activity
+✔ Block unauthorized LLM scraping, crawling, and contextual data mining
+✔ Identify AI agents in network, proxy, DNS, web, and cloud logs
+✔ Detect and assess outbound LLM/API usage from sensitive or high-value endpoints
+✔ Build and enrich detection rules across WAF, IDS/IPS, firewall, proxy, and EDR
+✔ Flag AI-assisted data exfiltration and potential command-and-control (C2) over LLM APIs
+✔ Enrich SIEM investigations and support advanced Threat Hunting and CTI enrichment
 
 ---
 
