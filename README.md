@@ -1,14 +1,14 @@
 # LLM agents IOCs for Threat Hunting and CTI
 
-**LLM User-Agents + API URLs + IP Ranges**  
 **Purpose:** Enable defenders, SOC teams, and CTI analysts to:
 
-- Detect **AI-driven reconnaissance**
-- Identify autonomous LLM agents in logs  
-- Block unauthorized crawlers and scrapers  
-- Build WAF/IDS/Firewall rules  
-- Enrich SIEM detections  
-- Support hunting investigations  
+▪ Detect AI-driven reconnaissance and intelligent automation  
+▪ Block unauthorized LLM scraping, crawling, or contextual data mining  
+▪ Identify autonomous agents in network, proxy, DNS, web and cloud logs  
+▪ Build WAF/IDS/Firewall rules  
+▪ Detect and monitor outbound LLM/API usage from sensitive hosts  
+▪ Flag AI-assisted data exfiltration and potential C2 via AI APIs  
+▪ Enrich SIEM detections and support threat hunting investigations  
 
 ---
 
@@ -17,6 +17,19 @@
 This repository provides a **high-fidelity, machine-readable threat intelligence feed** focused on **Large Language Model (LLM) crawlers and autonomous agents** used for web crawlers, data ingestion, reconnaissance agents, AI-driven scrapers, etc.
 
 All indicators are **verified against official vendor documentation** (OpenAI, Anthropic, Google, Perplexity, Mistral, etc.) and enriched with observed behavioral patterns from public logs analysis.
+
+---
+
+## Use Cases
+
+| Use Case | Benefit |
+|----------|---------|
+| Log & Proxy Monitoring | Detect outbound calls to LLM services |
+| Threat Hunting | Identify autonomous scraping or recon bots |
+| SOC Investigations | Correlate AI-related actions with suspicious processes |
+| Firewall/WAF Policy | Restrict or allow known AI service access |
+| UEBA | Detect unusual AI use from high-value assets |
+| CTI Enrichment | Attribute traffic to specific AI vendor or platform |
 
 ---
 
@@ -52,6 +65,8 @@ All indicators are **verified against official vendor documentation** (OpenAI, A
 ---
 
 ## LLM User-Agents  
+
+User-Agent strings associated with AI crawlers, foundation model clients, and autonomous LLM agents. Useful for **HTTP log analysis, WAF detection, and bot classification**.
 
 | Category            | User-Agent String        | Description                                      |
 |---------------------|--------------------------|--------------------------------------------------|
@@ -106,6 +121,9 @@ All indicators are **verified against official vendor documentation** (OpenAI, A
 
 ## API URLs
 
+Official API base URLs used for chat, background automation, embeddings, browsing, grounding, and agent-like interactions.  
+Helpful for **detecting outbound connections to AI services, monitoring unauthorized API usage, or spotting potential AI-based C2 or data exfiltration**.
+
 | Provider | Main Model | API URL | Documentation |
 |----------|------------|---------|---------------|
 | OpenAI | GPT-4o, GPT-4o-mini, o1, o3 | https://api.openai.com/v1/ | [`https://platform.openai.com/docs/api-reference`](https://platform.openai.com/docs/api-reference) |
@@ -123,10 +141,12 @@ All indicators are **verified against official vendor documentation** (OpenAI, A
 | Lepton AI | Llama 3.1, etc. | https://api.lepton.ai/v1/ | [`https://www.lepton.ai/docs`](https://www.lepton.ai/docs) |
 | xAI | Grok-2, Grok-beta | https://api.x.ai/v1/ | [`https://x.ai/api`](https://x.ai/api) |
 
-
 ---
 
 ## IP ranges (official)
+
+Cloud provider IP prefixes and ASNs associated with **OpenAI, Anthropic, Google, Mistral, Cohere, Groq, DeepSeek, RunPod, HuggingFace, and others**.  
+Useful for network-level monitoring, flow analysis, NDR correlation, and tagging **AI-as-a-Service traffic**.
 
 | Vendor | Agent | Details |
 |--------|-------|---------|
