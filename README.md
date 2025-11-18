@@ -1,6 +1,6 @@
 # LLM agents IOCs for Threat Hunting and CTI
 
-**LLM User-Agents + IP Ranges**  
+**LLM User-Agents + API URLs + IP Ranges**  
 **Purpose:** Enable defenders, SOC teams, and CTI analysts to:
 
 - Detect **AI-driven reconnaissance**
@@ -91,6 +91,27 @@ All indicators are **verified against official vendor documentation** (OpenAI, A
 | Other AI/LLMs       | TimpiBot                 | Timpi.io AI agent.                               |
 | Other AI/LLMs       | Webzio-Extended          | Webzio AI extended crawler.                      |
 | Other AI/LLMs       | bigsur.ai                | BigSur AI research bot.                          |
+
+---
+
+## API URLs
+
+| Provider | Main Model | API URL | Documentation |
+|----------|------------|---------|---------------|
+| OpenAI | GPT-4o, GPT-4o-mini, o1, o3 | https://api.openai.com/v1/ | [`https://api.openai.com/v1/`](https://api.openai.com/v1/) |
+| Anthropic | Claude 3.5 Sonnet, Claude 3 Opus | https://api.anthropic.com/v1/ | [`https://api.anthropic.com/v1/`](https://api.anthropic.com/v1/) |
+| Google | Gemini 1.5 Pro, Gemini 1.5 Flash | https://generativelanguage.googleapis.com/v1beta/ | [`https://generativelanguage.googleapis.com/v1beta/`](https://generativelanguage.googleapis.com/v1beta/) |
+| Google (Vertex AI) | Gemini via Vertex | https://REGION-aiplatform.googleapis.com/v1/ | [`https://REGION-aiplatform.googleapis.com/v1/`](https://REGION-aiplatform.googleapis.com/v1/) |
+| Mistral AI | Mistral Large, Mixtral, etc. | https://api.mistral.ai/v1/ | [`https://api.mistral.ai/v1/`](https://api.mistral.ai/v1/) |
+| Cohere | Command R+, Aya | https://api.cohere.com/v1/ | [`https://api.cohere.com/v1/`](https://api.cohere.com/v1/) |
+| Groq | Llama 3.1 70B/405B, Mixtral, Gemma | https://api.groq.com/openai/v1/ | [`https://api.groq.com/openai/v1/`](https://api.groq.com/openai/v1/) |
+| Perplexity | pplx-70b-online, Sonar | https://api.perplexity.ai/ | [`https://api.perplexity.ai/`](https://api.perplexity.ai/) |
+| Together AI | Llama-3.1-405B, Qwen2-72B, etc. | https://api.together.xyz/v1/ | [`https://api.together.xyz/v1/`](https://api.together.xyz/v1/) |
+| Fireworks AI | Llama 3.1, Mixtral, etc. | https://api.fireworks.ai/inference/v1/ | [`https://api.fireworks.ai/inference/v1/`](https://api.fireworks.ai/inference/v1/) |
+| DeepSeek | DeepSeek-V2, DeepSeek-Coder | https://api.deepseek.com/v1/ | [`https://api.deepseek.com/v1/`](https://api.deepseek.com/v1/) |
+| OctoAI | Varios (Llama, Mixtral, etc.) | https://text.octoai.app/v1/ | [`https://text.octoai.app/v1/`](https://text.octoai.app/v1/) |
+| Lepton AI | Llama 3.1, etc. | https://api.lepton.ai/v1/ | [`https://api.lepton.ai/v1/`](https://api.lepton.ai/v1/) |
+| xAI | Grok-2, Grok-beta | https://api.x.ai/v1/ | [`https://api.x.ai/v1/`](https://api.x.ai/v1/) |
 
 ---
 
