@@ -126,8 +126,8 @@ Helpful for **detecting outbound connections to AI services, monitoring unauthor
 
 | Provider | Main Model | API URL | Documentation |
 |----------|------------|---------|---------------|
-| OpenAI | GPT-4o, GPT-4o-mini, o1, o3 | https://api.openai.com/v1/ | [`https://platform.openai.com/docs/api-reference`](https://platform.openai.com/docs/api-reference) |
-| Anthropic | Claude 3.5 Sonnet, Claude 3 Opus | https://api.anthropic.com/v1/ | [`https://docs.anthropic.com/en/api/messages`](https://docs.anthropic.com/en/api/messages) |
+| OpenAI | GPT-4o, GPT-4o-mini, o1, o3 | https://api.openai.com/v1/ | [`[+]`](https://platform.openai.com/docs/api-reference) |
+| Anthropic | Claude 3.5 Sonnet, Claude 3 Opus | https://api.anthropic.com/v1/ | [`[+]`](https://docs.anthropic.com/en/api/messages) |
 | Google | Gemini 1.5 Pro, Gemini 1.5 Flash | https://generativelanguage.googleapis.com/v1beta/ | [`https://ai.google.dev/api/rest`](https://ai.google.dev/api/rest) |
 | Google (Vertex AI) | Gemini via Vertex | https://REGION-aiplatform.googleapis.com/v1/ | [`https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/api-quickstart`](https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/api-quickstart) |
 | Mistral AI | Mistral Large, Mixtral, etc. | https://api.mistral.ai/v1/ | [`https://docs.mistral.ai/api/`](https://docs.mistral.ai/api/) |
