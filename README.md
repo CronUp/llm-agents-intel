@@ -1,4 +1,5 @@
 # LLM agents IOCs for Threat Hunting and CTI
+Indicators for monitoring AI automation and reconnaissance.
 
 **Purpose:** Enable defenders, SOC teams, and CTI analysts to:
 
