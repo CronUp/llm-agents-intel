@@ -123,8 +123,7 @@ User-Agent strings associated with AI crawlers, foundation model clients, and au
 
 ## API URLs
 
-Official API base URLs used for chat, background automation, embeddings, browsing, grounding, and agent-like interactions.  
-Helpful for **detecting outbound connections to AI services, monitoring unauthorized API usage, or spotting potential AI-based C2 or data exfiltration**.
+Official API base URLs used for chat, background automation, embeddings, browsing, grounding, and agent-like interactions. Helpful for **detecting outbound connections to AI services, monitoring unauthorized API usage, or spotting potential AI-based C2 or data exfiltration**.
 
 | Provider | Main Model | API URL | Reference |
 |----------|------------|---------|---------------|
@@ -147,8 +146,7 @@ Helpful for **detecting outbound connections to AI services, monitoring unauthor
 
 ## IP ranges (official)
 
-Cloud provider IP prefixes and ASNs associated with **OpenAI, Anthropic, Google, Mistral, Cohere, Groq, DeepSeek, RunPod, HuggingFace, and others**.  
-Useful for network-level monitoring, flow analysis, NDR correlation, and tagging **AI-as-a-Service traffic**.
+Cloud provider IP prefixes and ASNs associated with **OpenAI, Anthropic, Perplexity, Mistral and others**. Useful for network-level monitoring, flow analysis, NDR correlation, and tagging **AI-as-a-Service traffic**.
 
 | Vendor | Agent | Details |
 |--------|-------|---------|
